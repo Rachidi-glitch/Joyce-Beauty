@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "./components/header/page";
-import Hero from "./components/hero/page";
-import Services from "./components/services/page";
-import About from "./components/about/page";
-import Gallery from "./components/gallery/page";
-import Testimonials from "./components/testimonials/page";
-import Contact from "./components/contact/page";
-import Footer from "./components/footer/page";
+import Header from "./_components/header/page";
+import Hero from "./_components/hero/page";
+import Services from "./_components/services/page";
+import About from "./_components/about/page";
+import Gallery from "./_components/gallery/page";
+import Testimonials from "./_components/testimonials/page";
+import Contact from "./_components/contact/page";
+import Footer from "./_components/footer/page";
 
 export default function Home() {
   return (
