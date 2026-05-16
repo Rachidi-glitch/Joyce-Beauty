@@ -15,7 +15,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="section bg-secondary p-10">
+    <section className="section bg-beauty-cream p-10">
       <div className="text-center">
         <h2 className="title text-3xl font-bold mb-4 lg:text-4xl">Avis clientes</h2>
       </div>
@@ -24,7 +24,7 @@ export default function Testimonials() {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-3xl p-8 shadow-lg"
+            className="bg-beauty-rose rounded-3xl p-8 shadow-lg"
           >
             <p className="text-gray-600 leading-7">
               “{item.text}”

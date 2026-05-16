@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-beauty-cream pt-28 section">
+    <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-beauty-rose pt-28 section">
       <div className="flex-1 text-center lg:text-left m-10">
         <h1 className="title leading-tight text-4xl md:text-5xl lg:text-6xl">
           Révélez 

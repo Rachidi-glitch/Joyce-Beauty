@@ -7,7 +7,7 @@ export default function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 border-b">
+    <header className="fixed top-0 left-0 w-full bg-beauty-cream/70 backdrop-blur-md z-50 border-b">
       <div className="flex items-center justify-between px-5 md:px-10 py-4">
         <a href="/" className="flex items-center gap-2 text-2xl font-serif font-bold text-dark">
           <Spotlight /> Joyce Beauy
@@ -29,7 +29,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="md:hidden flex flex-col gap-5 px-5 pb-5 bg-white">
+        <div className="md:hidden flex flex-col gap-5 px-5 pb-5 bg-beauty-cream/90">
           <a href="#services">Services</a>
           <a href="#about">À propos</a>
           <a href="#gallery">Galerie</a>

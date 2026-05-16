@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="section bg-white text-center p-10"
+      className="section bg-beauty-cream text-center p-10"
     >
       <h2 className="title text-3xl font-bold mb-4 lg:text-4xl">Contact</h2>
 

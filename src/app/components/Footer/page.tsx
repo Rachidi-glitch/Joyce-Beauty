@@ -1,10 +1,7 @@
+
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white py-10 text-center px-5">
-      <h2 className="font-serif text-3xl">
-        Joyce Beauy
-      </h2>
-
+    <footer className="bg-beauty-cream text-white py-5 text-center px-5 border-t">
       <p className="mt-4 text-gray-500">
         © 2026 — Tous droits réservés.
       </p>

@@ -4,7 +4,7 @@ const images = ['/medias/gal1.png', '/medias/gal2.png', '/medias/gal3.png']
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="section bg-white p-10">
+    <section id="gallery" className="section bg-beauty-rose p-10">
       <div className="text-center">
         <h2 className="title text-3xl font-bold mb-4 lg:text-4xl">Galerie</h2>
       </div>

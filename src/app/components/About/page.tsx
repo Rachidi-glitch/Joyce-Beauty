@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section bg-secondary flex flex-col lg:flex-row items-center gap-8 px-6 md:px-16 w-full mx-auto p-10"
+      className="section bg-beauty-cream flex flex-col lg:flex-row items-center gap-8 px-6 md:px-16 w-full mx-auto p-10"
     >
       <div className="flex-1 flex justify-center items-center w-full">
         <Image
